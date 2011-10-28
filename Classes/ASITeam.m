@@ -109,7 +109,7 @@
 }
 - (void)removeUnit:(ASIUnit *)unit
 {
-	[units removeObject:self];
+	[units removeObject:unit];
 	[unit setTeam:nil];	
 }
 
